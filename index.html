@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Calculater</title>
+    <link rel="stylesheet" type="text/css" href="style.css"/> 
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+    <script type="text/javascript" src="https://code.jquery.com/jquery-3.5.1.min.js"></script>
+</head>
+<body>
+<p src='oop'></p>
+<table>
+    <tr>
+      <th>operation</th>
+      <th>First Number</th>
+      <th>Second Number</th>
+      <th>Click</th>
+      <th>Result</th>
+      <th>Clear</th>
+    </tr>
+    <tr>
+      <td>Addition</td>
+      <td><input id="input1" type="search" onsearch="Calculator.prototype.Addition()" /></td>
+      <td><input id="input2" type="search" onsearch="Calculator.prototype.Plus()" /></td>
+      <td><button type="button" onclick="Calculator.prototype.Addition()">calculate</button></td>
+      <td><p id='result1'></p></td>
+      <td><button type="button" onclick="Calculator.prototype.AdditionClear()">clean</button></td>
+    </tr>
+    <tr>
+      <td>Subtraction</td>
+      <td><input id="input3" type="search" onsearch="Calculator.prototype.Subtraction()" /></td>
+      <td><input id="input4" type="search" onsearch="Calculator.prototype.Subtraction()" /></td>
+      <td><button type="button" onclick="Calculator.prototype.Subtraction()">calculate</button></td>
+      <td><p id='result2'></p></td>
+      <td><button type="button" onclick="Calculator.prototype.SubtractionClear()">clean</button></td>
+    </tr>
+    <tr>
+      <td>multiplication</td>
+      <td><input id="input5" type="search" onsearch="Calculator.prototype.Multiplication()" /></td>
+      <td><input id="input6" type="search" onsearch="Calculator.prototype.Multiplication()" /></td>
+      <td><button type="button" onclick="Calculator.prototype.Multiplication()">calculate</button></td>
+      <td><p id='result3'></p></td>
+      <td><button type="button" onclick="Calculator.prototype.MultiplicationClear()">clean</button></td>
+    </tr>
+    <tr>
+      <td>Division</td>
+      <td><input id="input7" type="search" onsearch="Calculator.prototype.Division()" /></td>
+      <td><input id="input8" type="search" onsearch="Calculator.prototype.Division()" /></td>
+      <td><button type="button" onclick="Calculator.prototype.Division()">calculate</button></td>
+      <td><p id='result4'></p></td>
+      <td><button type="button" onclick="Calculator.prototype.DivisionClear()">clean</button></td>
+    </tr>
+    <tr>
+        <td>Square</td>
+        <td><input id="input9" type="search" onsearch="Calculator.prototype.Square()" /></td>
+        <td></td>
+        <td><button type="button" onclick="Calculator.prototype.Square()">calculate</button></td>
+        <td><p id='result5'></p></td>
+        <td><button type="button" onclick="Calculator.prototype.SquareClear()">clean</button></td>
+      </tr>
+      <tr>
+        <td>SquareRoot</td>
+        <td><input id="input10" type="search" onsearch="Calculator.prototype.SquareRoot()" /></td>
+        <td></td>
+        <td><button type="button" onclick="Calculator.prototype.SquareRoot()">calculate</button></td>
+        <td><p id='result6'></p></td>
+        <td><button type="button" onclick="Calculator.prototype.SquareRootClear()">clean</button></td>
+      </tr>
+      <tr>
+        <td>Factorial</td>
+        <td><input id="input11" type="search" onsearch="Calculator.prototype.Factorial()" /></td>
+        <td></td>
+        <td><button type="button" onclick="Calculator.prototype.Factorial()">calculate</button></td>
+        <td><p id='result7'></p></td>
+        <td><button type="button" onclick="Calculator.prototype.FactorialClear()">clean</button></td>
+      </tr>
+  </table>
+  <p id='result8'></p>
+
+</body>
+<script src='calculator.js'>
+
+</script>
+</html>
